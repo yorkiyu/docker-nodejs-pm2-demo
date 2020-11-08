@@ -12,4 +12,4 @@ RUN mkdir -p /data/release/docker-nodejs-pm2-demo
 COPY . /data/release/docker-nodejs-pm2-demo
 
 # 容器启动时，启动应用服务
-CMD ["pm2-runtime", "ecosystem.config.js", "--only", "qcbase"]
+CMD ["pm2-runtime", "ecosystem.config.js", "--only", "docker-nodejs-pm2-demo"]
